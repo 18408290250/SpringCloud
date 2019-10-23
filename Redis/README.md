@@ -130,7 +130,7 @@ VMware公司从2010年开始赞助Redis的开发，Salvatore Sanfilippo和Pieter
 
 Redis的代码托管在GitHub上https://github.com/antirez/redis，开发十分活跃，代码量只有三万多行。
 
-![1570676327809](C:\Users\oiu\AppData\Roaming\Typora\typora-user-images\1570676327809.png)
+![1570676327809](images\1570676327809.png)
 
 
 
