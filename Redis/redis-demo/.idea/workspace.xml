@@ -30,19 +30,22 @@
     <session id="-1157287383">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -153,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/controller/RedisController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            <state relative-caret-position="350">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -162,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/junzhang/servicezuul/ServiceZuulApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="550">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -171,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="25">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -180,8 +183,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/ServiceRedisLockApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="325">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#806#807#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,8 +195,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/feign/ServiceTicket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="200">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -198,8 +204,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-redis-cache-webflux/src/main/java/com/junzhang/servicerediscachewebflux/handlerfuncs/HelloHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="43" />
+            <state relative-caret-position="525">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -207,8 +213,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/feign/fallback/ServiceTicketHystric.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -216,8 +222,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="35" />
+            <state relative-caret-position="3300">
+              <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -225,7 +231,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/ServiceRedisRedissonApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="150">
               <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
@@ -234,8 +240,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/config/RedisLockConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="375">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -287,6 +293,9 @@
       <dir>F:\IntelliJIDEAProjectCode\redis-demo\zredistemplate\src\test\java\com\junzhang\zredistemplate\controller</dir>
       <dir>F:\IntelliJIDEAProjectCode\redis-demo</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -355,8 +364,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="F:\Maven_Repository" />
-        <option name="mavenHome" value="F:/Maven/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="F:\Maven\apache-maven-3.5.2\conf\settings.xml" />
+        <option name="mavenHome" value="F:/Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\Maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -367,9 +376,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="12" />
-    <option name="y" value="66" />
-    <option name="width" value="1941" />
+    <option name="x" value="-13" />
+    <option name="y" value="15" />
+    <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -569,7 +578,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -794,6 +802,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -923,7 +932,7 @@
     <property name="SearchEverywhereHistoryKey" value="tryLockInnerAsync&#9;PSI&#9;JAVA://org.redisson.RedissonLock#tryLockInnerAsync&#10;RedissonLock &#9;PSI&#9;JAVA://org.redisson.RedissonLock&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;RedisLock&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/integration/spring-integration-redis/5.1.7.RELEASE/spring-integration-redis-5.1.7.RELEASE.jar!/org/springframework/integration/redis/util/RedisLockRegistry.class&#10;RedisLockRegistry&#9;PSI&#9;JAVA://org.springframework.integration.redis.util.RedisLockRegistry&#10;cancelExpirationRenewal()&#9;PSI&#9;JAVA://org.redisson.RedissonLock#cancelExpirationRenewal&#10;RedissonLock&#9;FILE&#9;jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonMultiLock.class&#10;RLock&#9;FILE&#9;jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RLock.class&#10;RedissonRedLock&#9;PSI&#9;JAVA://org.redisson.RedissonRedLock&#10;SessionRepositoryFilter&#9;PSI&#9;JAVA://org.springframework.session.web.http.SessionRepositoryFilter&#10;RedisHttpSessionConfiguration&#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration&#10;RedisCacheConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration&#10;ReactiveStringRedisTemplate&#9;PSI&#9;JAVA://org.springframework.data.redis.core.ReactiveStringRedisTemplate&#10;RedisReactiveAutoConfiguration&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/boot/spring-boot-autoconfigure/2.1.8.RELEASE/spring-boot-autoconfigure-2.1.8.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisReactiveAutoConfiguration.class&#10;ValueOperations&#9;PSI&#9;JAVA://org.springframework.data.redis.core.ValueOperations&#10;RedisAutoConfiguration  &#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;RedisProperties&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisProperties&#10;Mono &#9;PSI&#9;JAVA://reactor.core.publisher.Mono&#10;EnableCaching&#9;PSI&#9;JAVA://org.springframework.cache.annotation.EnableCaching&#10;springframework.data.redis.cache&#9;PSI&#9;JAVA://org.springframework.data.redis.cache.CacheKeyPrefix&#10;ReactiveRedisAutoConfiguration**&#9;null&#9;null&#10;reactiveRedisTemplate&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/ReactiveRedisTemplate.class&#10;RedisTemplate&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/data/spring-data-redis/2.1.11.RELEASE/spring-data-redis-2.1.11.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class&#10;StringRedisTemplate&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/data/spring-data-redis/2.1.11.RELEASE/spring-data-redis-2.1.11.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class&#10;RedisAutoConfiguration &#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;poolConfig&#9;FILE&#9;jar://F:/Maven_Repository/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar!/io/reactivex/netty/client/PoolConfig.class&#10;connectionProvider &#9;PSI&#9;JAVA://reactor.netty.resources.ConnectionProvider&#10;connectionFactory &#9;null&#9;null&#10;ReactiveRedisTemplate &#9;PSI&#9;JAVA://org.springframework.data.redis.core.ReactiveRedisTemplate&#10;RedisOperationsSessionRepository&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/session/spring-session-data-redis/2.1.8.RELEASE/spring-session-data-redis-2.1.8.RELEASE.jar!/org/springframework/session/data/redis/RedisOperationsSessionRepository.class&#10;cleanupExpiredSessions&#9;PSI&#9;JAVA://org.springframework.session.data.redis.RedisOperationsSessionRepository#cleanupExpiredSessions&#10;SessionRepositoryRequestWrapper&#9;PSI&#9;JAVA://org.springframework.session.web.http.SessionRepositoryFilter.SessionRepositoryRequestWrapper&#10;RedisHttpSessionConfiguration   &#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration&#10;RedisOperationsSessionRepository &#9;PSI&#9;JAVA://org.springframework.session.data.redis.RedisOperationsSessionRepository&#10;S&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/session/spring-session-core/2.1.8.RELEASE/spring-session-core-2.1.8.RELEASE.jar!/org/springframework/session/SessionRepository.class&#10;SessionRepository&#9;PSI&#9;JAVA://org.springframework.boot.actuate.session.SessionsEndpoint#sessionRepository&#10;Session&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/session/spring-session-core/2.1.8.RELEASE/spring-session-core-2.1.8.RELEASE.jar!/org/springframework/session/SessionRepository.class&#10;RedisOperationsSessionRepository   &#9;PSI&#9;JAVA://org.springframework.session.data.redis.RedisOperationsSessionRepository&#10;HeaderHttpSessionIdResolver &#9;PSI&#9;JAVA://org.springframework.session.web.http.HeaderHttpSessionIdResolver&#10;CookieHttpSessionIdResolver   &#9;PSI&#9;JAVA://org.springframework.session.web.http.CookieHttpSessionIdResolver&#10;HeaderHttpSessionIdResolver&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/session/spring-session-core/2.1.8.RELEASE/spring-session-core-2.1.8.RELEASE.jar!/org/springframework/session/web/http/HeaderHttpSessionIdResolver.class&#10;CookieHttpSessionIdResolver&#9;PSI&#9;JAVA://org.springframework.session.web.http.CookieHttpSessionIdResolver&#10;HttpSessionIdResolver&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/session/spring-session-core/2.1.8.RELEASE/spring-session-core-2.1.8.RELEASE.jar!/org/springframework/session/web/http/HttpSessionIdResolver.class&#10;SessionRepositoryRequestWrapper &#9;PSI&#9;JAVA://org.springframework.session.web.http.SessionRepositoryFilter.SessionRepositoryRequestWrapper&#10;HttpSessionStrategy&#9;PSI&#9;JAVA://com.junzhang.serviceredislock.config.HttpSessionConfig#httpSessionStrategy&#10;GenericFilterBean&#9;PSI&#9;JAVA://org.springframework.web.filter.GenericFilterBean&#10;DelegatingFilterProxy&#9;PSI&#9;JAVA://org.springframework.web.filter.DelegatingFilterProxy&#10;DelegatingFilterProxy &#9;PSI&#9;JAVA://org.springframework.web.filter.DelegatingFilterProxy&#10;springSessionRepositoryFilter&#9;PSI&#9;JAVA://org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration#springSessionRepositoryFilter&#10;RedisHttpSessionConfiguration &#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571319030626" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571832270546" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -931,7 +940,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -972,7 +981,7 @@
     </option>
     <option name="contentProportion" value="0.2853598" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceRedisLockApplication">
+  <component name="RunManager" selected="Spring Boot.ZredistemplateApplication">
     <configuration name="RedisTemplateTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zredistemplate" />
       <extension name="coverage">
@@ -1107,6 +1116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.test.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZredistemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zredistemplate" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.zredistemplate.ZredistemplateApplication" />
@@ -1124,6 +1140,7 @@
       <item itemvalue="Spring Boot.ZredistemplateApplication" />
       <item itemvalue="Spring Boot.ServiceZpubsubApplication" />
       <item itemvalue="Spring Boot.ServiceRedisRedissonApplication" />
+      <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="JUnit.RedisTemplateTest.test5" />
       <item itemvalue="JUnit.RedisTemplateTest.test8" />
       <item itemvalue="JUnit.RedisTemplateTest.test7" />
@@ -1184,6 +1201,10 @@
       <workItem from="1571105199072" duration="12323000" />
       <workItem from="1571138577131" duration="312000" />
       <workItem from="1571308247470" duration="8559000" />
+      <workItem from="1571365855209" duration="682000" />
+      <workItem from="1571743399779" duration="874000" />
+      <workItem from="1571750903809" duration="1236000" />
+      <workItem from="1571816606124" duration="41000" />
     </task>
     <servers />
   </component>
@@ -1220,12 +1241,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272543000" />
+    <option name="totallyTimeSpent" value="275376000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-286" y="111" width="1940" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24009702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25267667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1243,11 +1264,11 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.45555556" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.19977038" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1302,91 +1323,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Maven_Repository/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/server/session/HeaderWebSessionIdResolver.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/server/session/HeaderWebSessionIdResolver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/Redisson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="74" selection-start-line="74" selection-end-line="74" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/config/Config.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/regexp/joni/Config.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/Redisson.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/config/Config.class" />
+    <entry file="jar://D:/jdk1.8/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/regexp/joni/Config.class" />
     <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/controller/RedissonTest.java" />
-    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RedissonClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2370">
-          <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RLockAsync.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonRedLock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonMultiLock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/client/protocol/RedisStrictCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven_Repository/org/springframework/integration/spring-integration-redis/5.1.7.RELEASE/spring-integration-redis-5.1.7.RELEASE.jar!/org/springframework/integration/redis/util/RedisLockRegistry.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RedissonClient.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RLockAsync.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonRedLock.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonMultiLock.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/client/protocol/RedisStrictCommand.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.7.RELEASE/spring-integration-redis-5.1.7.RELEASE.jar!/org/springframework/integration/redis/util/RedisLockRegistry.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven_Repository/org/springframework/data/spring-data-redis/2.1.11.RELEASE/spring-data-redis-2.1.11.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.11.RELEASE/spring-data-redis-2.1.11.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class" />
     <entry file="file://$PROJECT_DIR$/service-redis-cache-webflux/src/main/java/com/junzhang/servicerediscachewebflux/controller/MonoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1472,20 +1433,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/Lock.java" />
     <entry file="file://$PROJECT_DIR$/service-redis-lock/src/test/java/com/junzhang/serviceredislock/TicketTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="57" column="44" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1514,26 +1466,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="35" column="25" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RLock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonLock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="231" column="117" selection-start-line="231" selection-start-column="97" selection-end-line="231" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RLock.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonLock.class" />
     <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/config/HttpSessionConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1545,79 +1482,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="74" column="51" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/config/RedisLockConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/feign/ServiceTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/ServiceRedisRedissonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/feign/fallback/ServiceTicketHystric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis-cache-webflux/src/main/java/com/junzhang/servicerediscachewebflux/handlerfuncs/HelloHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/ServiceRedisLockApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/junzhang/servicezuul/ServiceZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/controller/RedisController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        <state relative-caret-position="350">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/junzhang/servicezuul/ServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/ServiceRedisLockApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#806#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/feign/ServiceTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-cache-webflux/src/main/java/com/junzhang/servicerediscachewebflux/handlerfuncs/HelloHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/feign/fallback/ServiceTicketHystric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/ServiceRedisRedissonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/config/RedisLockConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
