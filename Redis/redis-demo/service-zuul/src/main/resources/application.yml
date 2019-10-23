@@ -1,0 +1,137 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: service-zuul
+
+#  session:
+#    store-type: redis   # 好像没有用
+#  # redis相关配置
+#  redis:
+#    database: 0
+#    host: localhost
+#    port: 6379
+#    password: zhangjun
+#    lettuce:
+#      pool:
+#        # 连接池最大连接数（使用负值表示没有限制）
+#        max-active: 8
+#        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+#        max-wait: -1ms
+#        # 连接池中的最大空闲连接
+#        max-idle: 8
+#        # 连接池中的最小空闲连接
+#        min-idle: 0
+#    # 连接超时时间（毫秒）默认是2000ms
+#    timeout: 2000ms
+#  cache:
+#    # spring cache 缓存类型为redis  也可以是其他的实现
+#    type: redis
+#    redis:
+#      ## Entry expiration in milliseconds. By default the entries never expire.
+#      time-to-live: 60s  # 1d
+#      #写入redis时是否使用键前缀。
+#      use-key-prefix: true
+
+# zuul需要抓取eurecal的服务注册列表，所以需要注册到eruka中
+eureka:
+  instance:
+    #    hostname: eureka1
+    prefer-ip-address: true
+    ip-address: localhost
+    instance-id: localhost:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/,http://localhost:8002/eureka/
+
+zuul:
+  # zuul在路由的时候,zuul会改写request中的header信息,这个配置就是对哪些header敏感,会过滤这些header,为空则都不过滤 => zuul默认是屏蔽Cookie的
+  sensitive-headers:
+  #  取消zuul初始化的路径代理，使用routes自定义方式
+  stripPrefix: false
+  routes:
+    api-a:
+      #   /service1/*只能接一层路径
+      path: /service1/**
+      serviceId: service-redis-session
+
+    api-b:
+      path: /service2/**
+      serviceId: service-redis-lock
+
+    api-c:
+      path: /service3/**
+      serviceId: service-redis-session-webflux
+
+    api-d:
+      path: /service4/**
+      serviceId: service-redis-cache
+
+    api-e:
+      path: /service5/**
+      serviceId: service-redis-cache-webflux
+
+    api-f:
+      path: /service6/**
+      serviceId: service-zpubsub
+
+    api-g:
+      path: /service7/**
+      serviceId: service-redis-redisson
+
+
+  MyPreFilter:
+    pre:
+      disable: false
+  MyPostFilter:
+    post:
+      disable: false
+
+  #  隔离机制改为线程池
+  ribbon-isolation-strategy: thread
+  #  每个路由使用独立的线程池
+  thread-pool:
+    use-separate-thread-pools: true
+
+
+# cache 中休眠了4秒，若不设置超时时间，hystrix会在请求还未回来时进行熔断，直接进入zullFallback
+# Hystrix Readed time out
+# 设置ribbon的超时时间，注意ribbon的超时时间要小于Hystrix超时时间timeoutInMilliseconds
+ribbon:
+  ReadTimeout:  6000
+  ConnectTimeout: 6000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          # 请求处理的超时时间
+          thread:
+            timeoutInMilliseconds: 8000
+
+  threadpool:
+    default:
+      coreSize: 100
+
+
+# turbine监控
+management:
+  endpoints:
+    web:
+      exposure:
+        include: service-redis-lock
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+
+turbine:
+  #  监控服务
+  app-config: service-redis-lock
+  #  聚合服务的监控
+  aggregator:
+    clusterConfig: default
+  clusterNameExpression: new String("default")
+  combine-host-port: true
+  instanceUrlSuffix: /hystrix.stream

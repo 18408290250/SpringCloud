@@ -1,0 +1,1712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba2dfa23-c864-4fa1-8b85-1909e47a9d68" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/eureka-server1/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server2/target/" />
+    <ignored path="$PROJECT_DIR$/service-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/service-redis-lock/target/" />
+    <ignored path="$PROJECT_DIR$/service-redis-session/target/" />
+    <ignored path="$PROJECT_DIR$/test/target/" />
+    <ignored path="$PROJECT_DIR$/service-login/target/" />
+    <ignored path="$PROJECT_DIR$/server-redis-session-webflux/target/" />
+    <ignored path="$PROJECT_DIR$/service-redis-cache/target/" />
+    <ignored path="$PROJECT_DIR$/service-redis-cache-webflux/target/" />
+    <ignored path="$PROJECT_DIR$/tt/target/" />
+    <ignored path="$PROJECT_DIR$/service-zuul-1/target/" />
+    <ignored path="$PROJECT_DIR$/redis-x-template/target/" />
+    <ignored path="$PROJECT_DIR$/redistemplate/target/" />
+    <ignored path="$PROJECT_DIR$/zredistemplate/target/" />
+    <ignored path="$PROJECT_DIR$/service-zpubsub/target/" />
+    <ignored path="$PROJECT_DIR$/service-zpubsub-1/target/" />
+    <ignored path="$PROJECT_DIR$/service-redis-redisson/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1157287383">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.opened" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="40" />
+          <entry key="core" value="1" />
+          <entry key="java" value="242" />
+          <entry key="properties" value="9" />
+          <entry key="xml" value="61" />
+          <entry key="yml" value="84" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="40" />
+          <entry key="JAVA" value="242" />
+          <entry key="Properties" value="9" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="61" />
+          <entry key="YAML" value="84" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="dummy" value="16" />
+          <entry key="java" value="4541" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="157" />
+          <entry key="yml" value="1156" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="4541" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="157" />
+          <entry key="YAML" value="1156" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1608310558">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.111" value="1" />
+          <entry key="project.open.time.112" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.open.time.81" value="1" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.opened" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="71" />
+          <entry key="java" value="215" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="34" />
+          <entry key="yml" value="65" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="71" />
+          <entry key="JAVA" value="215" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="35" />
+          <entry key="YAML" value="65" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="dummy" value="8" />
+          <entry key="java" value="2147" />
+          <entry key="xml" value="82" />
+          <entry key="yml" value="236" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="2147" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="XML" value="82" />
+          <entry key="YAML" value="236" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/controller/RedisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/junzhang/servicezuul/ServiceZuulApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/ServiceRedisLockApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/feign/ServiceTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-redis-cache-webflux/src/main/java/com/junzhang/servicerediscachewebflux/handlerfuncs/HelloHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/feign/fallback/ServiceTicketHystric.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/ServiceRedisRedissonApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/config/RedisLockConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>createSe</find>
+      <find>save</find>
+      <find>RedisOperationsSessionRepository</find>
+      <find>getSession</find>
+      <find>cleanupExpiredSessions</find>
+      <find>@Scheduled</find>
+      <find>RedisHttpSessionConfiguration</find>
+      <find>DEFAULT_CLEANUP_CRON</find>
+      <find>cleanupCron</find>
+      <find>configureTasks</find>
+      <find>roundDownMinute</find>
+      <find>cleanExpiredSessions</find>
+      <find>RedisTemplate</find>
+      <find>J</find>
+      <find>r</find>
+      <find>RedisCacheManager</find>
+      <find>get</find>
+      <find>afterPropertiesSet</find>
+      <find>operations</find>
+      <find>httpSessionIdResolver</find>
+      <find>index</find>
+      <find>&quot;store&quot;</find>
+      <find>cluster</find>
+      <find>tryLock</find>
+      <find>tryLockInnerAsync</find>
+      <find>tryLockAsync</find>
+      <find>unlock</find>
+      <find>lock</find>
+      <find>obtainLock</find>
+      <find>redissonClient</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\all_projects\Idea_Projects\projects\redis-demo</dir>
+      <dir>F:\IntelliJIDEAProjectCode\redis-demo\zredistemplate\src\test\java\com\junzhang\zredistemplate\controller</dir>
+      <dir>F:\IntelliJIDEAProjectCode\redis-demo</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/service-redis-session/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-redis-cache-webflux/src/main/java/com/junzhang/servicerediscachewebflux/controller/MonoTest.java" />
+        <option value="$PROJECT_DIR$/service-redis-cache/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/server-redis-session-webflux/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/config/RedisLockConfiguration.java" />
+        <option value="$PROJECT_DIR$/server-redis-session-webflux/src/main/java/com/junzhang/serverredissessionwebflux/controller/SessionRestController.java" />
+        <option value="$PROJECT_DIR$/server-redis-session-webflux/src/main/java/com/junzhang/serverredissessionwebflux/routers/HelloRouter.java" />
+        <option value="$PROJECT_DIR$/service-zpubsub/src/main/java/com/junzhang/servicezpubsub/ServiceZpubsubApplication.java" />
+        <option value="$PROJECT_DIR$/service-zpubsub/src/main/java/com/junzhang/servicezpubsub/service/SendService.java" />
+        <option value="$PROJECT_DIR$/service-zpubsub/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zpubsub/src/main/java/com/junzhang/servicezpubsub/service/Receiver.java" />
+        <option value="$PROJECT_DIR$/service-zpubsub/src/main/java/com/junzhang/servicezpubsub/config/SubscriberConfig.java" />
+        <option value="$PROJECT_DIR$/service-zpubsub-1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-zpubsub-1/src/main/java/com/junzhang/servicezpubsub1/controller/SendController.java" />
+        <option value="$PROJECT_DIR$/service-zpubsub-1/src/main/java/com/junzhang/servicezpubsub1/config/SubscriberConfig.java" />
+        <option value="$PROJECT_DIR$/service-zpubsub-1/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zpubsub-1/src/main/java/com/junzhang/servicezpubsub1/ServiceZpubsub1Application.java" />
+        <option value="$PROJECT_DIR$/zredistemplate/src/test/java/com/junzhang/zredistemplate/controller/String_RedisTemplateTest.java" />
+        <option value="$PROJECT_DIR$/zredistemplate/src/test/java/com/junzhang/zredistemplate/controller/List_RedisTemplateTest.java" />
+        <option value="$PROJECT_DIR$/zredistemplate/src/test/java/com/junzhang/zredistemplate/controller/Hash_RedisTemplateTest.java" />
+        <option value="$PROJECT_DIR$/zredistemplate/src/test/java/com/junzhang/zredistemplate/controller/Set_RedisTemplateTest.java" />
+        <option value="$PROJECT_DIR$/service-redis-cache/src/main/java/com/junzhang/servicerediscache/service/UserService.java" />
+        <option value="$PROJECT_DIR$/service-redis-session/pom.xml" />
+        <option value="$PROJECT_DIR$/service-redis-session/src/main/java/com/junzhang/serviceredissession/controller/SessionTest.java" />
+        <option value="$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/ServiceRedisLockApplication.java" />
+        <option value="$PROJECT_DIR$/zredistemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/zredistemplate/src/test/java/com/junzhang/zredistemplate/controller/RedisTemplateTest.java" />
+        <option value="$PROJECT_DIR$/zredistemplate/src/main/java/com/junzhang/zredistemplate/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/ServiceRedisRedissonApplication.java" />
+        <option value="$PROJECT_DIR$/service-redis-cache/src/main/java/com/junzhang/servicerediscache/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/service-redis-cache/src/main/java/com/junzhang/servicerediscache/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/service-redis-cache-webflux/src/main/java/com/junzhang/servicerediscachewebflux/handlerfuncs/HelloHandler.java" />
+        <option value="$PROJECT_DIR$/service-redis-session/src/main/java/com/junzhang/serviceredissession/config/HttpSessionConfig.java" />
+        <option value="$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/config/HttpSessionConfig.java" />
+        <option value="$PROJECT_DIR$/server-redis-session-webflux/src/main/java/com/junzhang/serverredissessionwebflux/config/WebSessionConfig.java" />
+        <option value="$PROJECT_DIR$/server-redis-session-webflux/src/main/java/com/junzhang/serverredissessionwebflux/handlerfuncs/HelloHandler.java" />
+        <option value="$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/controller/RedissonTest.java" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/controller/Test.java" />
+        <option value="$PROJECT_DIR$/zredistemplate/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/config/RedissonConfig.java" />
+        <option value="$PROJECT_DIR$/service-redis-redisson/pom.xml" />
+        <option value="$PROJECT_DIR$/service-redis-redisson/src/main/resources/redisson-single.yml" />
+        <option value="$PROJECT_DIR$/service-redis-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zpubsub/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-zpubsub/src/main/java/com/junzhang/servicezpubsub/controller/SendController.java" />
+        <option value="$PROJECT_DIR$/service-redis-redisson/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-redis-lock/src/test/java/com/junzhang/serviceredislock/TicketTest.java" />
+        <option value="$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/controller/TestLock.java" />
+        <option value="$PROJECT_DIR$/service-redis-lock/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/controller/RedisController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Maven_Repository" />
+        <option name="mavenHome" value="F:/Maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="F:\Maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="12" />
+    <option name="y" value="66" />
+    <option name="width" value="1941" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>ArquillianJava</id>
+          </State>
+          <State>
+            <id>Bean Validation</id>
+          </State>
+          <State>
+            <id>Bidirectional TextInternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>FlexUnit</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>JSP</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Kotlin Android</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>LintLintAndroid</id>
+          </State>
+          <State>
+            <id>LoggingJava</id>
+          </State>
+          <State>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>PortabilityJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Reactor</id>
+          </State>
+          <State>
+            <id>Reflective accessJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <showMembers Scope="false" />
+      <compactDirectories Scope="false" />
+      <sortByType Scope="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-cache-webflux" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-cache-webflux" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-cache-webflux" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-cache-webflux" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-cache-webflux" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-cache-webflux" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-cache-webflux" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="servicerediscachewebflux" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-cache-webflux" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="servicerediscachewebflux" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="handlerfuncs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="serviceredislock" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="serviceredislock" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="serviceredislock" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="serviceredislock" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="feign" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="serviceredislock" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="feign" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fallback" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-redis-lock" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-zuul" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-zuul" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-zuul" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-zuul" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-zuul" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-zuul" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-zuul" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="junzhang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="servicezuul" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="service-zuul" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="junzhang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="junzhang" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="junzhang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="junzhang" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="tryLockInnerAsync&#9;PSI&#9;JAVA://org.redisson.RedissonLock#tryLockInnerAsync&#10;RedissonLock &#9;PSI&#9;JAVA://org.redisson.RedissonLock&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;RedisLock&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/integration/spring-integration-redis/5.1.7.RELEASE/spring-integration-redis-5.1.7.RELEASE.jar!/org/springframework/integration/redis/util/RedisLockRegistry.class&#10;RedisLockRegistry&#9;PSI&#9;JAVA://org.springframework.integration.redis.util.RedisLockRegistry&#10;cancelExpirationRenewal()&#9;PSI&#9;JAVA://org.redisson.RedissonLock#cancelExpirationRenewal&#10;RedissonLock&#9;FILE&#9;jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonMultiLock.class&#10;RLock&#9;FILE&#9;jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RLock.class&#10;RedissonRedLock&#9;PSI&#9;JAVA://org.redisson.RedissonRedLock&#10;SessionRepositoryFilter&#9;PSI&#9;JAVA://org.springframework.session.web.http.SessionRepositoryFilter&#10;RedisHttpSessionConfiguration&#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration&#10;RedisCacheConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration&#10;ReactiveStringRedisTemplate&#9;PSI&#9;JAVA://org.springframework.data.redis.core.ReactiveStringRedisTemplate&#10;RedisReactiveAutoConfiguration&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/boot/spring-boot-autoconfigure/2.1.8.RELEASE/spring-boot-autoconfigure-2.1.8.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisReactiveAutoConfiguration.class&#10;ValueOperations&#9;PSI&#9;JAVA://org.springframework.data.redis.core.ValueOperations&#10;RedisAutoConfiguration  &#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;RedisProperties&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisProperties&#10;Mono &#9;PSI&#9;JAVA://reactor.core.publisher.Mono&#10;EnableCaching&#9;PSI&#9;JAVA://org.springframework.cache.annotation.EnableCaching&#10;springframework.data.redis.cache&#9;PSI&#9;JAVA://org.springframework.data.redis.cache.CacheKeyPrefix&#10;ReactiveRedisAutoConfiguration**&#9;null&#9;null&#10;reactiveRedisTemplate&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/ReactiveRedisTemplate.class&#10;RedisTemplate&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/data/spring-data-redis/2.1.11.RELEASE/spring-data-redis-2.1.11.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class&#10;StringRedisTemplate&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/data/spring-data-redis/2.1.11.RELEASE/spring-data-redis-2.1.11.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class&#10;RedisAutoConfiguration &#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;poolConfig&#9;FILE&#9;jar://F:/Maven_Repository/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar!/io/reactivex/netty/client/PoolConfig.class&#10;connectionProvider &#9;PSI&#9;JAVA://reactor.netty.resources.ConnectionProvider&#10;connectionFactory &#9;null&#9;null&#10;ReactiveRedisTemplate &#9;PSI&#9;JAVA://org.springframework.data.redis.core.ReactiveRedisTemplate&#10;RedisOperationsSessionRepository&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/session/spring-session-data-redis/2.1.8.RELEASE/spring-session-data-redis-2.1.8.RELEASE.jar!/org/springframework/session/data/redis/RedisOperationsSessionRepository.class&#10;cleanupExpiredSessions&#9;PSI&#9;JAVA://org.springframework.session.data.redis.RedisOperationsSessionRepository#cleanupExpiredSessions&#10;SessionRepositoryRequestWrapper&#9;PSI&#9;JAVA://org.springframework.session.web.http.SessionRepositoryFilter.SessionRepositoryRequestWrapper&#10;RedisHttpSessionConfiguration   &#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration&#10;RedisOperationsSessionRepository &#9;PSI&#9;JAVA://org.springframework.session.data.redis.RedisOperationsSessionRepository&#10;S&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/session/spring-session-core/2.1.8.RELEASE/spring-session-core-2.1.8.RELEASE.jar!/org/springframework/session/SessionRepository.class&#10;SessionRepository&#9;PSI&#9;JAVA://org.springframework.boot.actuate.session.SessionsEndpoint#sessionRepository&#10;Session&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/session/spring-session-core/2.1.8.RELEASE/spring-session-core-2.1.8.RELEASE.jar!/org/springframework/session/SessionRepository.class&#10;RedisOperationsSessionRepository   &#9;PSI&#9;JAVA://org.springframework.session.data.redis.RedisOperationsSessionRepository&#10;HeaderHttpSessionIdResolver &#9;PSI&#9;JAVA://org.springframework.session.web.http.HeaderHttpSessionIdResolver&#10;CookieHttpSessionIdResolver   &#9;PSI&#9;JAVA://org.springframework.session.web.http.CookieHttpSessionIdResolver&#10;HeaderHttpSessionIdResolver&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/session/spring-session-core/2.1.8.RELEASE/spring-session-core-2.1.8.RELEASE.jar!/org/springframework/session/web/http/HeaderHttpSessionIdResolver.class&#10;CookieHttpSessionIdResolver&#9;PSI&#9;JAVA://org.springframework.session.web.http.CookieHttpSessionIdResolver&#10;HttpSessionIdResolver&#9;FILE&#9;jar://F:/Maven_Repository/org/springframework/session/spring-session-core/2.1.8.RELEASE/spring-session-core-2.1.8.RELEASE.jar!/org/springframework/session/web/http/HttpSessionIdResolver.class&#10;SessionRepositoryRequestWrapper &#9;PSI&#9;JAVA://org.springframework.session.web.http.SessionRepositoryFilter.SessionRepositoryRequestWrapper&#10;HttpSessionStrategy&#9;PSI&#9;JAVA://com.junzhang.serviceredislock.config.HttpSessionConfig#httpSessionStrategy&#10;GenericFilterBean&#9;PSI&#9;JAVA://org.springframework.web.filter.GenericFilterBean&#10;DelegatingFilterProxy&#9;PSI&#9;JAVA://org.springframework.web.filter.DelegatingFilterProxy&#10;DelegatingFilterProxy &#9;PSI&#9;JAVA://org.springframework.web.filter.DelegatingFilterProxy&#10;springSessionRepositoryFilter&#9;PSI&#9;JAVA://org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration#springSessionRepositoryFilter&#10;RedisHttpSessionConfiguration &#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571319030626" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\all_projects\Idea_Projects\projects\redis-demo\service-redis-cache" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.junzhang.serviceredislock" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.junzhang.serviceredislock.controller" />
+      <recent name="com.junzhang.serverredissessionwebflux.config" />
+      <recent name="com.junzhang.servicezuul.config" />
+      <recent name="com.junzhang.serviceredislock.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IntelliJIDEAProjectCode\redis-demo\service-redis-redisson\src\main\resources" />
+      <recent name="F:\IntelliJIDEAProjectCode\redis-demo\service-zpubsub-1\src\main\java\com\junzhang\servicezpubsub1" />
+      <recent name="F:\IntelliJIDEAProjectCode\redis-demo\service-zpubsub-1\src\main\resources" />
+      <recent name="F:\IntelliJIDEAProjectCode\redis-demo\service-zpubsub\src\main\resources" />
+      <recent name="F:\IntelliJIDEAProjectCode\redis-demo\zredistemplate\src\test\java\com\junzhang\zredistemplate" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.2853598" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceRedisLockApplication">
+    <configuration name="RedisTemplateTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zredistemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junzhang.zredistemplate.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junzhang.zredistemplate.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.junzhang.zredistemplate.controller.RedisTemplateTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTemplateTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zredistemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junzhang.zredistemplate.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junzhang.zredistemplate.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.junzhang.zredistemplate.controller.RedisTemplateTest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTemplateTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zredistemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junzhang.zredistemplate.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junzhang.zredistemplate.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.junzhang.zredistemplate.controller.RedisTemplateTest" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.eurekaserver1.EurekaServer1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.eurekaserver2.EurekaServer2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerRedisSessionWebfluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-redis-session-webflux" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.serverredissessionwebflux.ServerRedisSessionWebfluxApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRedisCacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-redis-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.servicerediscache.ServiceRedisCacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRedisCacheWebfluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-redis-cache-webflux" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.servicerediscachewebflux.ServiceRedisCacheWebfluxApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRedisLockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="service-redis-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junzhang.serviceredislock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.serviceredislock.ServiceRedisLockApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRedisRedissonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="service-redis-redisson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.serviceredisredisson.ServiceRedisRedissonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRedisSessionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-redis-session" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junzhang.serviceredissession.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.serviceredissession.ServiceRedisSessionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceZpubsubApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="service-zpubsub" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.servicezpubsub.ServiceZpubsubApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.servicezuul.ServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZredistemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zredistemplate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junzhang.zredistemplate.ZredistemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServer1Application" />
+      <item itemvalue="Spring Boot.EurekaServer2Application" />
+      <item itemvalue="Spring Boot.ServiceZuulApplication" />
+      <item itemvalue="Spring Boot.ServerRedisSessionWebfluxApplication" />
+      <item itemvalue="Spring Boot.ServiceRedisCacheApplication" />
+      <item itemvalue="Spring Boot.ServiceRedisCacheWebfluxApplication" />
+      <item itemvalue="Spring Boot.ZredistemplateApplication" />
+      <item itemvalue="Spring Boot.ServiceZpubsubApplication" />
+      <item itemvalue="Spring Boot.ServiceRedisRedissonApplication" />
+      <item itemvalue="JUnit.RedisTemplateTest.test5" />
+      <item itemvalue="JUnit.RedisTemplateTest.test8" />
+      <item itemvalue="JUnit.RedisTemplateTest.test7" />
+      <item itemvalue="Spring Boot.ServiceRedisSessionApplication" />
+      <item itemvalue="Spring Boot.ServiceRedisLockApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceRedisLockApplication" />
+        <item itemvalue="Spring Boot.ServiceRedisSessionApplication" />
+        <item itemvalue="JUnit.RedisTemplateTest.test7" />
+        <item itemvalue="JUnit.RedisTemplateTest.test8" />
+        <item itemvalue="JUnit.RedisTemplateTest.test5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba2dfa23-c864-4fa1-8b85-1909e47a9d68" name="Default Changelist" comment="" />
+      <created>1569326637375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569326637375</updated>
+      <workItem from="1569326639820" duration="7326000" />
+      <workItem from="1569333995264" duration="645000" />
+      <workItem from="1569375027993" duration="526000" />
+      <workItem from="1569375606008" duration="5037000" />
+      <workItem from="1569383721544" duration="10289000" />
+      <workItem from="1569402743106" duration="14969000" />
+      <workItem from="1569460182979" duration="21308000" />
+      <workItem from="1569548990411" duration="19732000" />
+      <workItem from="1569591976778" duration="3471000" />
+      <workItem from="1569633541233" duration="26370000" />
+      <workItem from="1569721933511" duration="6127000" />
+      <workItem from="1569741014981" duration="3060000" />
+      <workItem from="1569849016810" duration="85000" />
+      <workItem from="1570328648789" duration="13444000" />
+      <workItem from="1570416406951" duration="1243000" />
+      <workItem from="1570433136263" duration="9738000" />
+      <workItem from="1570501613860" duration="16489000" />
+      <workItem from="1570587404367" duration="7869000" />
+      <workItem from="1570626367769" duration="3906000" />
+      <workItem from="1570634569538" duration="583000" />
+      <workItem from="1570671087013" duration="23027000" />
+      <workItem from="1570758873732" duration="5896000" />
+      <workItem from="1570770047312" duration="16839000" />
+      <workItem from="1570850312474" duration="1524000" />
+      <workItem from="1570866236218" duration="8523000" />
+      <workItem from="1570877283330" duration="123000" />
+      <workItem from="1570888312031" duration="2492000" />
+      <workItem from="1570890892371" duration="146000" />
+      <workItem from="1570891130628" duration="436000" />
+      <workItem from="1570967449848" duration="10582000" />
+      <workItem from="1571044243351" duration="9544000" />
+      <workItem from="1571105199072" duration="12323000" />
+      <workItem from="1571138577131" duration="312000" />
+      <workItem from="1571308247470" duration="8559000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Set_RedisTemplateTest_test - 2019.10.11 at 15h 39m 52s.xml">
+      <configuration name="Set_RedisTemplateTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="List_RedisTemplateTest_test - 2019.10.11 at 15h 43m 09s.xml">
+      <configuration name="List_RedisTemplateTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="List_RedisTemplateTest_test1_getStr - 2019.10.11 at 15h 44m 16s.xml">
+      <configuration name="List_RedisTemplateTest.test1_getStr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTemplateTest_test9 - 2019.10.11 at 20h 50m 20s.xml">
+      <configuration name="RedisTemplateTest.test9" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTemplateTest_test5 - 2019.10.11 at 21h 14m 27s.xml">
+      <configuration name="RedisTemplateTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTemplateTest_test6 - 2019.10.11 at 21h 17m 10s.xml">
+      <configuration name="RedisTemplateTest.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTemplateTest_test5 - 2019.10.11 at 21h 22m 25s.xml">
+      <configuration name="RedisTemplateTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTemplateTest_test8 - 2019.10.11 at 21h 25m 27s.xml">
+      <configuration name="RedisTemplateTest.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTemplateTest_test8 - 2019.10.11 at 21h 26m 16s.xml">
+      <configuration name="RedisTemplateTest.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTemplateTest_test7 - 2019.10.11 at 21h 27m 54s.xml">
+      <configuration name="RedisTemplateTest.test7" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="272543000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24009702" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51111114" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.45555556" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.37768242" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/service-redis-session/src/main/java/com/junzhang/serviceredissession/config/HttpSessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-session/src/main/java/com/junzhang/serviceredissession/controller/SessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-redis-session-webflux/src/main/java/com/junzhang/serverredissessionwebflux/config/WebSessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-redis-session-webflux/src/main/java/com/junzhang/serverredissessionwebflux/controller/SessionRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-redis-session-webflux/src/main/java/com/junzhang/serverredissessionwebflux/handlerfuncs/HelloHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/server/session/HeaderWebSessionIdResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/Redisson.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="74" selection-start-line="74" selection-end-line="74" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/config/Config.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/regexp/joni/Config.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/controller/RedissonTest.java" />
+    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RedissonClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2370">
+          <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RLockAsync.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonRedLock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonMultiLock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/client/protocol/RedisStrictCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/springframework/integration/spring-integration-redis/5.1.7.RELEASE/spring-integration-redis-5.1.7.RELEASE.jar!/org/springframework/integration/redis/util/RedisLockRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/springframework/data/spring-data-redis/2.1.11.RELEASE/spring-data-redis-2.1.11.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-cache-webflux/src/main/java/com/junzhang/servicerediscachewebflux/controller/MonoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-cache-webflux/src/main/java/com/junzhang/servicerediscachewebflux/ServiceRedisCacheWebfluxApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-cache-webflux/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zpubsub/src/main/java/com/junzhang/servicezpubsub/ServiceZpubsubApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zpubsub/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zpubsub/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zpubsub/src/main/java/com/junzhang/servicezpubsub/controller/SendController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zpubsub/src/main/java/com/junzhang/servicezpubsub/service/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zpubsub/src/main/java/com/junzhang/servicezpubsub/service/SendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zredistemplate/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="24" selection-start-line="9" selection-start-column="7" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zpubsub/src/main/java/com/junzhang/servicezpubsub/config/SubscriberConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/test/java/com/junzhang/serviceredislock/TicketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/resources/redisson-single.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-redisson/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/config/RedissonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/api/RLock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Maven_Repository/org/redisson/redisson/3.11.4/redisson-3.11.4.jar!/org/redisson/RedissonLock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="231" column="117" selection-start-line="231" selection-start-column="97" selection-end-line="231" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/config/HttpSessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/controller/TestLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="74" column="51" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/config/RedisLockConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/feign/ServiceTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-redisson/src/main/java/com/junzhang/serviceredisredisson/ServiceRedisRedissonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/feign/fallback/ServiceTicketHystric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-cache-webflux/src/main/java/com/junzhang/servicerediscachewebflux/handlerfuncs/HelloHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/ServiceRedisLockApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/junzhang/servicezuul/ServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-redis-lock/src/main/java/com/junzhang/serviceredislock/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|service-redis-redisson</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

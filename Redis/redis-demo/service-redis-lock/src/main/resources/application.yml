@@ -1,0 +1,106 @@
+server:
+  port: 8006   # 8006  8005
+
+eureka:
+  instance:
+    #    hostname: eureka1
+    prefer-ip-address: true
+    ip-address: localhost
+    instance-id: localhost:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/,http://localhost:8002/eureka/
+
+# com.netflix.client.ClientException: Load balancer does not have available server for client: service-redis-cache-webflux
+feign.hystrix.enabled: true
+
+
+# 核心的两个设置，允许并发量1000的请求，默认情况下下面两个值都是10，也就是超过10个的并发会直接进入fallback方法，不会去真正请求
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          strategy: SEMAPHORE
+#          semaphore:
+#            maxConcurrentRequests: 100
+#      fallback:
+#        isolation:
+#          semaphore:
+#            maxConcurrentRequests: 100
+
+ribbon:
+  ReadTimeout:  6000
+  ConnectTimeout: 6000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          # 请求处理的超时时间
+          thread:
+            timeoutInMilliseconds: 8000
+#      metrics:
+#        rollingStats:
+#          timeInMilliseconds: 3000
+#        circuitBreaker:
+#          requestVolumeThreshold: 2
+#          errorThresholdPercentage: 50
+#          sleepWindowInMilliseconds: 500
+      # #熔断器失败的个数==进入熔断器的请求达到1000时服务降级（之后的请求直接进入熔断器）
+#      circuitBreaker:
+#        requestVolumeThreshold: 100
+      ##回退最大线程数
+#      fallback:
+#        isolation:
+#          semaphore:
+#            maxConcurrentRequests:  100
+  # 核心线程池数量
+  threadpool:
+    default:
+      coreSize: 100
+
+spring:
+  application:
+    name: service-redis-lock
+
+#  session:
+#    store-type: redis
+  # redis相关配置
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password: zhangjun
+    lettuce:
+      pool:
+        # 连接池最大连接数（使用负值表示没有限制）
+        max-active: 8
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: -1ms
+        # 连接池中的最大空闲连接
+        max-idle: 8
+        # 连接池中的最小空闲连接
+        min-idle: 0
+    # 连接超时时间（毫秒）默认是2000ms
+    timeout: 2000ms
+#  cache:
+#    # spring cache 缓存类型为redis  也可以是其他的实现
+#    type: redis
+#    redis:
+#      ## Entry expiration in milliseconds. By default the entries never expire.
+#      time-to-live: 60s  # 1d
+#      #写入redis时是否使用键前缀。
+#      use-key-prefix: true
+
+
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: "*"
+    endpoint:
+      health:
+        show-details: always

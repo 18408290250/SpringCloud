@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server1" />
+        <module name="eureka-server2" />
+        <module name="server-redis-session-webflux" />
+        <module name="service-redis-cache" />
+        <module name="service-redis-cache-webflux" />
+        <module name="service-redis-lock" />
+        <module name="service-redis-redisson" />
+        <module name="service-redis-session" />
+        <module name="service-zpubsub" />
+        <module name="service-zuul" />
+        <module name="test" />
+        <module name="zredistemplate" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server1" target="1.8" />
+      <module name="eureka-server2" target="1.8" />
+      <module name="redis-x-template" target="1.8" />
+      <module name="redistemplate" target="1.8" />
+      <module name="server-redis-session-webflux" target="1.8" />
+      <module name="service-login" target="1.8" />
+      <module name="service-redis-cache" target="1.8" />
+      <module name="service-redis-cache-webflux" target="1.8" />
+      <module name="service-redis-lock" target="1.8" />
+      <module name="service-redis-redisson" target="1.8" />
+      <module name="service-redis-session" target="1.8" />
+      <module name="service-zpubsub" target="1.8" />
+      <module name="service-zpubsub-1" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+      <module name="service-zuul-1" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="tt" target="1.8" />
+      <module name="zredistemplate" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

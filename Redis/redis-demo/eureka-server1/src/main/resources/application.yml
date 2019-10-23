@@ -1,0 +1,27 @@
+server:
+  #(eureka 默认端口为：8761)
+  port: 8001
+
+spring:
+  application:
+    #需要指明 spring.application.name，这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个 name
+    name: eureka-server1
+
+# 默认使用hostname主机名注册（#hostname: eureka1），win系统在C:\Windows\System32\drivers\etc 添加
+# 127.0.0.1 eureka1
+# 127.0.0.1 eureka2
+
+eureka:
+  instance:
+#    hostname: eureka1
+    prefer-ip-address: true
+    ip-address: localhost
+    instance-id: localhost:${server.port}
+  client:
+    # 是否注册到eureka,如果是做服务端的服务注册与发现，则需将这两个配置改为false,默认为true
+    registerWithEureka: true
+    # 是否从eureka获取注册信息,不需要同步其他eureka server节点，则可以设置为false
+    fetch-registry: true
+    serviceUrl:
+      # http://eureka2:8002/eureka/,http://eureka3:8003/eureka/ # eureka服务器的地址（注意：地址最后面的 /eureka/ 这个是固定值）
+      defaultZone:  http://localhost:8002/eureka/

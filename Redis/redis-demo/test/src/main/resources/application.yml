@@ -1,0 +1,12 @@
+server:
+  port: 8005
+
+spring:
+  application:
+    name: test
+
+# zuul需要抓取eurecal的服务注册列表，所以需要注册到eruka中
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka1:8001/eureka/,http://eureka2:8002/eureka/

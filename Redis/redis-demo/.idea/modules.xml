@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-server1/eureka-server1.iml" filepath="$PROJECT_DIR$/eureka-server1/eureka-server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server2/eureka-server2.iml" filepath="$PROJECT_DIR$/eureka-server2/eureka-server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redistemplate/redistemplate.iml" filepath="$PROJECT_DIR$/redistemplate/redistemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-redis-session-webflux/server-redis-session-webflux.iml" filepath="$PROJECT_DIR$/server-redis-session-webflux/server-redis-session-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-redis-cache/service-redis-cache.iml" filepath="$PROJECT_DIR$/service-redis-cache/service-redis-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-redis-cache-webflux/service-redis-cache-webflux.iml" filepath="$PROJECT_DIR$/service-redis-cache-webflux/service-redis-cache-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-redis-lock/service-redis-lock.iml" filepath="$PROJECT_DIR$/service-redis-lock/service-redis-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-redis-redisson/service-redis-redisson.iml" filepath="$PROJECT_DIR$/service-redis-redisson/service-redis-redisson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-redis-session/service-redis-session.iml" filepath="$PROJECT_DIR$/service-redis-session/service-redis-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zpubsub/service-zpubsub.iml" filepath="$PROJECT_DIR$/service-zpubsub/service-zpubsub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zredistemplate/zredistemplate.iml" filepath="$PROJECT_DIR$/zredistemplate/zredistemplate.iml" />
+    </modules>
+  </component>
+</project>

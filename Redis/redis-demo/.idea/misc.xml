@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-server1/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server2/pom.xml" />
+        <option value="$PROJECT_DIR$/service-redis-session/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/service-redis-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/server-redis-session-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/service-redis-cache-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/service-redis-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/zredistemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zpubsub/pom.xml" />
+        <option value="$PROJECT_DIR$/service-redis-redisson/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/service-redis-session1/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

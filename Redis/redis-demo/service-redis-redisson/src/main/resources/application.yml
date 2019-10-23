@@ -1,0 +1,17 @@
+server:
+  port: 8016  # 8015   8016
+
+spring:
+  application:
+    name: service-redis-redisson
+
+eureka:
+  instance:
+    #    hostname: eureka1
+    prefer-ip-address: true
+    ip-address: localhost
+    instance-id: localhost:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/,http://localhost:8002/eureka/
+

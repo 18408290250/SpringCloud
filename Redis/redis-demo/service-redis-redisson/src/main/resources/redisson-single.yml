@@ -1,0 +1,28 @@
+# 配置方式
+#  https://github.com/redisson/redisson/wiki/2.-%E9%85%8D%E7%BD%AE%E6%96%B9%E6%B3%95
+singleServerConfig:
+  # 连接空闲超时 如果当前连接池里的连接数量超过了最小空闲连接数，而同时有连接空闲时间超过了该数值，那么这些连接将会自动被关闭，并从连接池里去掉。时间单位是毫秒
+  idleConnectionTimeout: 10000
+  pingTimeout: 1000
+  connectTimeout: 10000
+  timeout: 3000
+  retryAttempts: 3
+  retryInterval: 1500
+  reconnectionTimeout: 3000
+  failedAttempts: 3
+  password: zhangjun    # 需要配置
+  subscriptionsPerConnection: 5
+  clientName: null
+  address: "redis://127.0.0.1:6379"
+  subscriptionConnectionMinimumIdleSize: 1
+  subscriptionConnectionPoolSize: 50
+  connectionMinimumIdleSize: 32
+  connectionPoolSize: 64
+  database: 0
+  #在最新版本中dns的检查操作会直接报错 所以我直接注释掉了
+  #dnsMonitoring: false
+  dnsMonitoringInterval: 5000
+threads: 0
+nettyThreads: 0
+codec: !<org.redisson.codec.JsonJacksonCodec> {}
+transportMode : "NIO"

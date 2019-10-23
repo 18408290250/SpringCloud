@@ -1,0 +1,37 @@
+server:
+  port: 8011  #   8011 8012
+
+spring:
+  application:
+    name: service-zpubsub
+
+  # redis相关配置
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password: zhangjun
+    lettuce:
+      pool:
+        # 连接池最大连接数（使用负值表示没有限制） 默认8
+        max-active: 8
+        # 连接池最大阻塞等待时间（使用负值表示没有限制） 默认-1
+        max-wait: -1ms
+        # 连接池中的最大空闲连接 默认8
+        max-idle: 8
+        # 连接池中的最小空闲连接 默认0
+        min-idle: 0
+    # 连接超时时间（毫秒）默认是2000ms
+    timeout: 2000ms
+
+
+eureka:
+  instance:
+    #    hostname: eureka1
+    prefer-ip-address: true
+    ip-address: localhost
+    instance-id: localhost:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/,http://localhost:8002/eureka/
+
