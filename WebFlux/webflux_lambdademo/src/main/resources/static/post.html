@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $.ajax({
+            type: 'POST',
+            url: "/post/findjson",
+            data: JSON.stringify({
+                "name": "aa"
+            }),
+            contentType:"application/json",
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+            },error:function () {
+                console.log("error");
+            }
+        });
+
+
+        $.ajax({
+            type: 'POST',
+            url: "/post/findform",
+            data: {
+                name: "aa",
+                sex:"n"
+            },
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+            },error:function () {
+                console.log("error");
+            }
+        });
+    })
+</script>
+</body>
+</html>

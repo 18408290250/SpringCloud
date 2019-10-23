@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Good Thymes Virtual Grocery</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--<link rel="stylesheet" type="text/css" media="all"-->
+          <!--href="../../css/gtvg.css" th:href="@{/css/gtvg.css}" />-->
+    <link th:href="@{/css/bootstrap.css}" href="../static/css/bootstrap.css" rel="stylesheet"/>
+    <script th:src="@{/js/jquery-3.3.1.min.js}" src="../static/js/jquery-3.3.1.min.js"></script>
+    <script th:src="@{/js/bootstrap.min.js}" src="../static/js/bootstrap.min.js" ></script>
+    <!--<script th:src="@{https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js}"></script>-->
+    <style>
+        .red{color: red;}
+    </style>
+
+
+</head>
+
+<body>
+
+<p th:text="${#ctx.name}">name</p>
+<p th:text="${name}">name</p>
+
+
+<!--链接-->
+<a th:href="@{http://www.thymeleaf.org}">Thymeleaf,click me!!</a>
+
+<!--字符串拼接1-->
+<p th:text="'拼接！ ' + ${name} + '!'">hello world</p>
+
+<!--字符串拼接2：|...|中只能包含变量表达式${...}，不能包含其他常量、条件表达式-->
+<p th:text="|拼接！ ${name}!|">hello world</p>
+
+<!--算术运算符-->
+<p th:with="isEven=(${count} % 2 == 0)">hello world</p>
+
+<!--逻辑运算符-->
+<!--   >, <, <=',>=，==,!=都可以使用，唯一需要注意的是使用<,>`时需要用它的HTML转义符  -->
+<p th:if="${count} &gt; 6">hello world</p>
+<p th:text="'Execution mode is ' + ( (${name} == 'thymeleaf')? 'thymeleaf' : 'hello')">hello world</p>
+
+<!--循环，渲染列表-->
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>vip</th>
+    </tr>
+    <tr th:each="s:${students}" th:classappend="${s.vip}? 'red'">
+        <td th:text="${s.id}"></td>
+        <td th:text="${s.name}"></td>
+        <td><input th:type="checkbox" th:name="vip"  th:checked="( (${s.vip} == 1)? true : false)" th:value="${s.vip}" ></td>
+        <td>
+            <div th:switch="${s.vip}">
+                <p th:case="1"><a  href="#myModal" role="button"  data-toggle="modal"  th:onclick="'javascript:check('+${s.id}+');'">查看会员信息</a></p>
+                <!--<p th:case="1"><a  class="btn" href="javascript:;" th:href="@{/check(id=${s.id})}"  th:onclick="@{/check(id=${s.id})}">查看会员信息</a></p>-->
+                <p th:case="0"><input type="button" value="加入会员" class="btn" /></p>
+                <p th:case="*">error</p>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<!--引入公共片段-->
+<!--保留自己的主标签，保留th:fragment的主标签-->
+<div th:insert="footer :: copy"></div>
+<!--不要自己的主标签，保留th:fragment的主标-->
+<div th:replace="footer :: copy"></div>
+<!--保留自己的主标签，不要th:fragment的主标签。（官方3.0后不推荐）-->
+<div th:include="footer :: copy"></div>
+
+
+<!--国际化设置-->
+<h1 th:text="${#locale}"></h1>
+<h1 th:text="${#locale.country}"></h1>
+<h3 class="panel-title" th:utext="#{sys.test}">visit model</h3>
+
+<!--获取对象信息-->
+    <!-- 1.直接获取对象信息-->
+    <p th:text="${student.id}"></p>
+    <p th:text="${student.name}"></p>
+
+    <!--2. th:object访问对象的方式-->
+<div th:object="${student}">
+    <p th:text="*{id}"></p>
+    <p th:text="*{name}"></p>
+</div>
+    <!--3.表单提交用户信息,注意字段的设置 -->
+    <form action="#" th:action="@{/add}" th:object="${student}" method="post">
+        <!--<input type="text" th:field="*{id}" />-->
+        <input type="text" th:field="${student.id}" />
+        <!--<input type="text" class="input-text" value="" th:value="*{id}" name="id" />-->
+        <input type="text" th:field="*{name}" />
+        <input type="submit" />
+    </form>
+
+
+
+
+<!--内置对象-->
+<td th:text="${#numbers.formatDecimal(5, 1, 2)}">0.99</td>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel"  style="">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">详细信息</h4>
+        </div>
+        <div class="modal-body">
+            <ul class="list-group">
+                <li class="list-group-item">
+                ID：<span class="li_id"></span><br/>
+                姓名：<span class="li_name"></span><br/>
+                vip:<span class="li_vip red"></span>
+            </li>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+            <!--<button type="button" class="btn btn-primary">提交更改</button>-->
+        </div>
+    </div><!-- /.modal-content -->
+</div><!-- /.modal -->
+</div>
+<!--内置对象-->
+<!--${#dates.format(date, 'dd/MMM/yyyy HH:mm')}-->
+<!--${#dates.arrayFormat(datesArray, 'dd/MMM/yyyy HH:mm')}-->
+<!--${#dates.listFormat(datesList, 'dd/MMM/yyyy HH:mm')}-->
+<!--${#dates.setFormat(datesSet, 'dd/MMM/yyyy HH:mm')}-->
+
+
+<script type="text/javascript"  th:src="@{/js/thymeleaf.js}"></script>
+<script th:inline="javascript">
+    var name = [[${name}]];
+    console.log(name);
+
+    testFunction();
+
+    function check(id) {
+        console.log(id);
+       // $('#myModal').modal('show');
+
+        $.get("/check/"+id,"",function(data) {
+            data = JSON.parse(data);
+            console.log(data)
+            $.each(data,function(key,item){
+                if(key == "vip"){
+                    console.log(item=="1")
+                    item = (item == "1")?'是' : '否';
+                    if(item == "1")
+                    $(".li_"+key).removeClass('red');
+                }
+                $(".li_"+key).html(item);
+            });
+        });
+    }
+    $("#re").on('click',function () {
+        alert($("#re").css("href"));
+    })
+</script>
+</body>
+
+</html>

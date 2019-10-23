@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="output"></div>
+<script>
+    window.onload = function (ev) {
+        var clientWebSocket = new WebSocket("ws://localhost:8080/echo");
+        clientWebSocket.onopen = function(evt) { onOpen(evt) };
+        clientWebSocket.onclose = function(evt) { onClose(evt) };
+        clientWebSocket.onmessage = function(evt) { onMessage(evt) };
+        clientWebSocket.onerror = function(evt) { onError(evt) };
+
+        function onOpen(evt){
+            // readyState
+            // 0 (CONNECTING)正在链接中;  1(OPEN)已经链接并且可以通讯 ;
+            // 2(CLOSING)连接正在关闭; 3(CLOSED) 连接已关闭或者没有链接成功
+            console.log("clientWebSocket.onopen", clientWebSocket);
+            console.log("clientWebSocket.readyState", "websocketstatus");
+            clientWebSocket.send("你好！");
+        }
+        function onClose(evt){
+            console.log("clientWebSocket.onclose", clientWebSocket);
+            console.log("聊天会话关闭！");
+        }
+
+        function onMessage(evt){
+            console.log(evt);
+            document.getElementById("output").innerText =  evt.data;
+            clientWebSocket.close();
+        }
+
+        function onError(evt){
+            console.log("异常");
+        }
+    }
+</script>
+</body>
+</html>

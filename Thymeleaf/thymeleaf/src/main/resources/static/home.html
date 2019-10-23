@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        *, body {
+            transition: all 0.3s ease 0.0s;
+            font-family: 'nowayregular';
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .navbar-default .navbar-nav>li>a {
+            color: #fff;
+            font-size: 17px;
+            font-family: 'nowayregular', sans-serif;
+            position: relative;
+            padding: 38px 16px;
+            text-transform: uppercase;
+        }
+
+        .feature-box{
+            padding: 5px 20px 0px 20px;
+            perspective: 800px;
+        }
+        .feature-icon{
+            font-size: 60px;
+            color: #ffffff;
+            position: relative;
+            z-index: 2;
+            margin-bottom: 10px;
+        }
+        .feature-title{
+            font-size: 20px;
+            font-family: 'nowaybold';
+            font-weight: initial;
+            color: #fff;
+            letter-spacing: 1.2px;
+            line-height: 1.2;
+        }
+        .feature-details{
+            font-family: 'nowayregular', sans-serif;
+            font-size: 15px;
+            color: #fff;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+        #m_nav{
+            background-color: transparent;
+            border: none;
+            margin-bottom: 0;
+        }
+        #m_nav,#top{
+            background-color: #f96460;
+        }
+        #features {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;
+            background-color: #1b1c52;}
+        #info {
+            background-color: #fff;
+            padding-top: 50px;
+            padding-bottom: 50px;}
+        #more-features {
+            background-color: #1b1c52;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            text-align: center;}
+        #footer {
+            background-color: #ffffff;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-top: 1px solid #ddd;}
+
+        #about-features {
+            background-color: #fff;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            text-align: center;}
+
+        .carousel-control.right, .carousel-control.left {
+            background-image: none;
+            display: none;
+        }
+
+        #info .row-title {
+            color: #fa5c6b;
+            font-weight: 300;
+            font-size: 33px;
+            text-transform: uppercase;
+            letter-spacing: 5PX;
+            text-align: center;
+            line-height: 1.2;
+            font-family: 'nowaybold';
+        }
+        #more-features .row-title {
+            color: #fff;
+            font-weight: 300;
+            font-size: 33px;
+            text-transform: uppercase;
+            letter-spacing: 5PX;
+            text-align: center;
+            line-height: 1.2;
+            font-family: 'nowaybold';
+        }
+        #more-features .row-subtitle {
+            color: #ffffff;
+            font-size: 17px;
+            font-family: 'nowayregular', sans-serif;
+        }
+        #testimonials {
+            background-color: #fff;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            text-align: center;
+        }
+        .gradient {
+            background: red;
+            background: -webkit-linear-gradient(left top,#fe4096, #f7704e);
+            background: -o-linear-gradient(bottom right,#fe4096, #f7704e);
+            background: -moz-linear-gradient(bottom right,#fe4096, #f7704e);
+            background: linear-gradient(60deg, #fe4096, #f7704e);
+            /* background-image: url(/images/networkelement.png), linear-gradient(60deg, #fe4096, #f7704e); */
+            background-size: calc(100% + 50px);
+        }
+
+        .testimonial-box {
+            -webkit-box-shadow: 0px 5px 33px 0px rgba(82, 156, 219,0.17);
+            -moz-box-shadow: 0px 5px 33px 0px rgba(82, 156, 219,0.17);
+            box-shadow: 0px 5px 33px 0px rgba(82, 156, 219,0.17);
+            padding: 30px;
+            margin-top: 80px;
+            position: relative;
+            background-color: #ffffff;
+        }
+        .testimonial-box:hover {
+            transform: scale(1.05);
+        }
+        #testimonials .row-title {
+            color: #fff;
+            font-weight: 300;
+            font-size: 33px;
+            text-transform: uppercase;
+            letter-spacing: 5PX;
+            text-align: center;
+            line-height: 1.2;
+            font-family: 'nowaybold';
+        }
+        .testimonial-box .testimonial-image {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: -55px;
+        }
+        .testimonial-box .testimonial-details {
+            color: #616b71;
+            font-size: 15px;
+            font-family: 'nowayregular', sans-serif;
+            margin-bottom: 30px;
+        }
+        .testimonial-box .testimonial-info {
+            color: #616b71;
+            font-size: 12px;
+            font-family: 'nowayregular', sans-serif;
+        }
+        #about-features .row-title {
+            color: #fa5c6b;
+            font-weight: 300;
+            font-size: 33px;
+            text-transform: uppercase;
+            letter-spacing: 5PX;
+            text-align: center;
+            line-height: 1.2;
+            font-family: 'nowaybold';
+            margin-bottom: 30px;
+        }
+        #about-features .row-subtitle {
+            color: #336786;
+            font-size: 17px;
+            font-family: 'nowayregular', sans-serif;
+            text-align: center;
+        }
+
+        input{
+            margin-top: 10px;}
+
+
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default navbar-full" role="navigation" id="m_nav">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src=""><span>Firm</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="https://me.csdn.net/oiu1010110" target="_blank">博客</a>
+                    </li>
+                    <li>
+                        <a href="/about">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="/contact">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--第一部分-->
+    <div id="top" class="container-fluid">
+        <div class="container">
+            <div class="col-md-8">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8500">
+                    <!-- Indicators -->
+                    <!-- <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol> -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="carouselImg animated bounceInDown" src="images/carousel-1_sm.png">
+                        </div>
+                        <div class="item">
+                             <img src="images/carousel-2_sm.png" class="carouselImg animated bounceInDown">
+                        </div>
+                        <div class="item">
+                             <img src="images/carousel-3_sm.png" class="carouselImg animated bounceInDown">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3" id="overlay">
+                <form class="form-signin" style="margin-top: 10rem;" id="loginForm">
+                    <h2 class="form-signin-heading" th:text="#{login.tip}">Please sign in</h2>
+                    <label for="iUname" class="sr-only" th:text="#{login.username}">username</label>
+                    <input type="text" id="iUname" class="form-control" placeholder="username" name="username" th:placeholder="#{login.username}" required autofocus>
+                    <label for="iPassword" class="sr-only" th:text="#{login.password}">Password</label>
+                    <input type="password" id="iPassword" class="form-control" placeholder="password" name="password" th:placeholder="#{login.password}" required>
+                    <button class="btn btn-lg btn-primary btn-block" type="button" th:text="#{login.tip}" id="login" style="margin-top: 20px;">Sign in</button>
+                    <p id="tick"></p>
+                    <a class="btn btn-sm" th:href="@{/login.html(l='zh_CN')}">中文</a>
+                    <a class="btn btn-sm" th:href="@{/login.html(l='en_US')}">English</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--第二部分-->
+    <div id="features" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row-title">
+                        What Social Frontier Can Do!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <img src="images/creaqte-content.png" alt="analyse" style="height: auto;width: 2em;">
+                        </div>
+                        <div class="feature-title">360-degree campaign integration</div>
+                        <div class="feature-details" style="text-align: justify">All projects undertaken by social frontier are initiated after a complete research and analysis.
+                            Our customers are able to achieve their objectives with ease because of our 360-degree campaign
+                            integration approach. Campaign strategy is formulated keeping in mind the digital platforms,
+                            customer behavior, and campaign objective.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+
+                        <div class="feature-icon">
+                            <img src="images/key.png" alt="analyse" style="height: auto;width: 2em;">
+                        </div>
+                        <div class="feature-title">Integrated Content Marketing</div>
+                        <div class="feature-details" style="text-align: justify">We ensure that the campaign message is in harmony with the brand communication and personality. Our
+                            content team does a thorough research on keywords and builds the campaigns accordingly. Across
+                            all platforms and campaigns, the audience will come across rich content and valuable ad experience.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+
+                        <div class="feature-icon">
+                            <img src="images/creaqte-content.png" alt="analyse" style="height: auto;width: 2em;">
+                        </div>
+                        <div class="feature-title">Advanced Technical Tracking &amp; Analytics</div>
+                        <div class="feature-details" style="text-align: justify">Social Frontier has developed an advanced algorithm that is able to track the campaigns running across
+                            digital platforms. This algorithm does not only compare the campaign performance but also provide
+                            suggestions in order to optimize the campaigns. With the help of this technology we are able
+                            to have a highly efficient team, optimized budget allocation, and 3X better results
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第三部分-->
+    <div id="info" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row-title">Who We Help!</div>
+                </div>
+            </div>
+            <div class="row rtl-cols">
+                <div class="col-sm-7 col-md-7 info-img-holder" style="text-align: right;">
+                    <img class="info-img" src="images/info1.png" alt="info">
+                </div>
+                <div class="col-sm-5 col-md-5 info-text-holder">
+                    <h3>Direct Brands</h3>
+                    <p>We have worked with multiple brands across industries and have helped them to grow their businesses.
+                        Our solutions are based upon your business strategy and campaign objective. Our algorithm is able
+                        to identify and track campaign performance across multiple platforms. Hence management and campaign
+                        optimization are much more efficient. They have not only leveraged our expertise with integrated
+                        marketing but also the technology that helps us in making strategic business calls.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7 col-md-7 info-img-holder" style="text-align: left;">
+                    <img class="info-img" src="images/info2.png" alt="info">
+                </div>
+                <div class="col-sm-5 col-md-5 info-text-holder">
+                    <h3>Agencies/ Networks</h3>
+                    <p>We help agencies and networks to manage and monitor campaigns effectively. With the assistance of our
+                        advanced marketing technologies, we have successfully provided campaign insights and data. This has
+                        optimized the campaigns to drive more engagement and sales. Along with these measuring parameters,
+                        the budget has been optimally put into use. Social Frontier's precise reporting system has provided
+                        the agencies with a comprehensive data and trends with which major marketing decisions have been
+                        made.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第四部分-->
+    <div id="more-features" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row-title">
+                        We Drive Growth</div>
+                    <div class="row-subtitle">
+                        Social Frontier has assisted more than 50 brands to target and achieve the real brand growth. These companies realized the
+                        gaps in their marketing efforts and with the help of Social Frontier, have seen higher conversions
+                        and profit patterns.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第五部分-->
+    <div id="testimonials" class="container-fluid gradient">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row-title">What Our Clients Say</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="testimonial-box">
+                        <div class="testimonial-image">
+                            <img src="https://pbs.twimg.com/profile_images/651929380856418304/I5ppUbjS_400x400.png" alt="person">
+                        </div>
+                        <div class="testimonial-details">
+                            <span>
+                                <a href="https://twitter.com/socialfrontierr" target="_blank">@socialfrontierr</a>
+                            </span> scaled our traffic 10x, easy to set up campaigns/view metrics. Overall great tool designed for
+                            marketers who aren’t techies</div>
+                        <div class="testimonial-info">
+                            <span class="name">HelloClass</span> -@helloclassapp</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="testimonial-box">
+                        <div class="testimonial-image">
+                            <img src="https://pbs.twimg.com/profile_images/751971695238537216/hmuEcsE4_400x400.jpg" alt="person">
+                        </div>
+                        <div class="testimonial-details">Thank you
+                            <span>
+                                <a href="https://twitter.com/socialfrontierr" target="_blank">@socialfrontierr</a>
+                            </span> for helping Qtrove to start and scale content marketing. Impressed with the support and indeed,
+                            a great team.</div>
+                        <div class="testimonial-info">
+                            <span class="name">Shashwat Swaroop</span> - @shashwatswaroop</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第六部分-->
+    <div id="about-features" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row-title">Why Social Frontier?</div>
+                    <div class="row-subtitle">
+                        What is your end goal when you are strategizing your marketing plan? SALES, right? You are not wrong if you think like that.
+                        The end objective of all businesses globally boils down to numbers only. But the challenge comes
+                        when you are only focused on sales and ignore the business's real growth.
+                    </div>
+                    <br>
+                    <div class="row-subtitle">
+                        Over the years market has evolved from product centric to customer centric. And in this digital era the evolution is much
+                        more paced than 10 years back. Your business is having so many competitors with almost the same product
+                        or service that it is difficult to stand out. In such a scenario it is important to focus on the
+                        overall brand growth and you will be surprised by the sales that flow in.
+                        <br>
+                        <a href="">
+                            <button class="btn search-button" type="button" style="margin-top: 20px;">Get Started</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第七部分-->
+    <div id="footer" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a class="footer-nav" href="/about">About us</a>
+                    <span> | </span>
+                    <a class="footer-nav" href="/contact">Contact Us</a>
+                    <span> | </span>
+                    <a class="footer-nav" href="http://blog.socialfrontier.com" target="_blank">Blog</a>
+                    <div class="social">
+                        <a href="https://twitter.com/socialfrontierr/" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="https://facebook.com/socialfrontier" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/13239640" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div style="color:#7a8093">US OFFICE</div>
+                    <div class="phone">
+                        <i class="fa fa-phone"></i> +1 (302) 4401582</div>
+                    <div class="email">
+                        <i class="fa fa-envelope"></i> us@socialfrontier.com</div>
+                    <div class="address">
+                        <div>
+                            <i class="fa fa-map-marker"></i> 2035 Sunset Lake Road, Suite B-2, 19702, Newark
+                            <br>&nbsp; &nbsp;   Delaware,US </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div style="color:#7a8093">INDIA OFFICE</div>
+                    <div class="phone">
+                        <i class="fa fa-phone"></i> +91 93802 87418</div>
+                    <div class="email">
+                        <i class="fa fa-envelope"></i> us@socialfrontier.com</div>
+                    <div class="address">
+                        <div>
+                            <i class="fa fa-map-marker"></i> 2nd Floor, 212/A, 1st Main Road, Stage 2, Domlur
+                            <br>&nbsp; &nbsp;   Bangalore 560071</div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center" style="color:#7a8093;">
+                    Copyright © 2018-19 |
+                    <span>
+                        <a href="/index">Social Frontier</a>
+                    </span> |
+                    <span>
+                        <a href="/privacy">Privacy Policy</a>
+                    </span> |
+                    <span>
+                        <a href="/termsandconditions">Terms And Conditions</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

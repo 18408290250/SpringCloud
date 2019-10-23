@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $.ajax({
+            type: 'POST',
+            url: "/postController/json",
+            data: JSON.stringify({
+                "name": "aa",
+                "sex":"m"
+            }),
+            contentType:"application/json",
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+            },error:function () {
+                console.log("error");
+            }
+        });
+
+        $.ajax({
+            type: 'POST',
+            url: "/postController/jsonS",
+            data: JSON.stringify({
+                "name": "aa",
+                "sex":"m"
+            }),
+            contentType:"application/json",
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+            },error:function () {
+                console.log("error");
+            }
+        });
+
+
+        $.ajax({
+            type: 'POST',
+            url: "/postController/form",
+            data: {
+                name: "bb",
+                sex:"m"
+            },
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+            },error:function () {
+                console.log("error");
+            }
+        });
+
+
+        $.ajax({
+            type: 'POST',
+            url: "/postController/formS",
+            data: {
+                name: "bb",
+                sex:"m"
+            },
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+            },error:function () {
+                console.log("error");
+            }
+        });
+    })
+</script>
+</body>
+</html>
